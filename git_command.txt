@@ -49,7 +49,7 @@ git rm file.txt                      // to remove a file
 
 git rm --cached file.txt             // place the file in .gitignore then this command will untracked file.txt
 
-git restore --staged filename.txt
+git restore --staged filename.txt    // restoring effect of " add . " command
 
 git checkout -- filename.txt      // restore last changes to file
 
@@ -57,9 +57,9 @@ git checkout -f			  // go on previous commit
 
 git remote add origin https://github.com/iit2018110/GitPractice.git
 
-git push origin master
+git push origin master      // push in master branch
 
-git push origin <branch name>
+git push origin <branch name>       //push in specific branch
 
 git checkout -b <branchName>  // to create and check into new Branch
 
